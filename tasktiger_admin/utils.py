@@ -22,4 +22,4 @@ def run_admin(host, port, db, password, listen):
     admin.add_view(
         TaskTigerView(tiger, name='TaskTiger', endpoint='tasktiger')
     )
-    app.run(debug=True, port=int(listen or 5000))
+    app.run(debug=True, host='0.0.0.0', port=int(listen or 5000))
