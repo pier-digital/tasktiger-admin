@@ -34,5 +34,5 @@ urllib3==1.25.6
 virtualenv==16.7.5
 virtualenv-clone==0.5.3
 webencodings==0.5.1
-Werkzeug==0.16.0
+Werkzeug==2.2.3
 WTForms==2.2.1
